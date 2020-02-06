@@ -11,12 +11,12 @@ https://slides.com/matias_perez/html-css-two#/
 
 # Student Learning Objectives
 
-* Student understands and can implement the position properties
-* Student can implement the display properties (block, inline, inline-block)
-* Student can use the inspector to inspect elements
-* Student can use the overflow property
-* Student can use the box-shadow property
-* Students can use flexbox
+- Student understands and can implement the position properties
+- Student can implement the display properties (block, inline, inline-block)
+- Student can use the inspector to inspect elements
+- Student can use the overflow property
+- Student can use the box-shadow property
+- Students can use flexbox
 
 # HTML/CSS 2 Lecture Notes
 
@@ -34,7 +34,7 @@ There are five main values we can give this property:
 
 `fixed` - this will position the element relative to the view port. This means that the element will always be displayed to our screen.
 
-`sticky` - this will position an element based on the users scroll position. It toggles between fixed and relative. It will be relative until it hits a scroll position threshold then become fixed. 
+`sticky` - this will position an element based on the users scroll position. It toggles between fixed and relative. It will be relative until it hits a scroll position threshold then become fixed.
 
 ## Display
 
@@ -65,56 +65,50 @@ We can use `flex properties` to help create this.
 Flex Properties:
 
 `flex-direction` - this will determine the axis of how to align items placed inside of the container (vertical or horizontal)
-    * row
-    * column
+_ row
+_ column
 
 ![flex direction](images/flex-direction.png)
 
 `flex-wrap` - by default, flex items will try to sit on the same line so we can tell the overflowed items to wrap to the next line
-    * wrap
-    * no-wrap
-    * wrap-reverse
+_ wrap
+_ no-wrap \* wrap-reverse
 
 ![flex wrap](images/flex-wrap.png)
 
 `justify-content` - this determine how much space to put between each flex item
-    * space-around
-    * space-between
-    * flex-start
-    * flex-end
-    * center
-    * space-evenly
+_ space-around
+_ space-between
+_ flex-start
+_ flex-end
+_ center
+_ space-evenly
 
 ![justify-content](images/justify-content.png)
 
 `align-items` - this defines the behaviour for how flex items are laid out along the axis
-    * center
-    * left
-    * right
-    * flex-start
-    * flex-end
+_ center
+_ left
+_ right
+_ flex-start \* flex-end
 
 ![align items](images/align-items.png)
 
-`align-self` - this can be used on a flex item to determine it's own alignment to override the one set by align items
-    * same values as align-items
+`align-self` - this can be used on a flex item to determine it's own alignment to override the one set by align items \* same values as align-items
 
 ![align self](images/align-self.png)
 
-`align-content` - this can be used to mutate the distribution of space between flex items
-    * same values as justify-content
+`align-content` - this can be used to mutate the distribution of space between flex items \* same values as justify-content
 
 ![align content](images/align-content.png)
-
 
 ## Overflow
 
 `overflow` is the property we can use to determine what happens to elements that flow over the height or width of an element.
 
 Values:
-    * visible - this is the default overflow property and will still display overflowed elements
-    * hidden - this will hide all of the elements that overflow
-    * scroll - this will make the container element scroll to see the overflowed elements
+_ visible - this is the default overflow property and will still display overflowed elements
+_ hidden - this will hide all of the elements that overflow \* scroll - this will make the container element scroll to see the overflowed elements
 
 ## Z-index
 
@@ -134,51 +128,62 @@ box-shadow: 1px 1px 1px 1px black;
 
 The values go `h-offset`, `v-offset`, `blur`, `spread`, `color`.
 
-# Additional Resources
-
-# Games for Flexbox
-* https://flexboxfroggy.com/
-* http://www.flexboxdefense.com/
-
-## Lecture Specific
-* [W3 Position Property](https://www.w3schools.com/css/css_positioning.asp)
-* [CSS Tricks Flex-Box](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [MDN Overflow Property](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
-
-## General
-* https://www.w3schools.com - a great resource for learning the basics about HTML and CSS.
->Note: For all things JavaScript, avoid w3, and instead refer to MDN.
-* https://developer.mozilla.org/en-US/ - phenomenal resource for all things web dev, and more comprehensive HTML and CSS coverage than w3. Should be utilized as **THE** primary go-to for all things JavaScript. 
-* https://css-tricks.com/ - another great resource for all things web dev, but is an especially great resource for more advanced CSS applications. Provides comprehensive tutorials on creating more complicated visual effects.
-* https://www.figma.com/ - accessible, convenient tool for making wireframes that can be used collaboratively.
-* https://dribbble.com - website with free design templates created by top designers. Great source for inspiration on designs.
-* https://coolors.co/ - convenient tool for creating color schemes for a site.
-* https://cssgradient.io/ - convenient tool for creating custom color gradients.
-* https://meyerweb.com/eric/tools/css/reset/ - free CSS Reset sheet that should cover most common issues
-
-## Videos
-* https://www.youtube.com/watch?v=UB1O30fR-EE&app=desktop - Traversy Media Introductory video to HTML. Traversy Media is a great resource for all things web dev. 
-* https://www.youtube.com/watch?v=yfoY53QXEnI&app=desktop - Traversy Media Introductory video to CSS.
->Note: Students are strongly encouraged to watch both of these videos over the weekend to review and strengthen their foundation in HTML/CSS
-
-## Articles
-* https://matthewjamestaylor.com/bottom-footer - getting footers to stay at the bottom of a page is a notoriously difficult task for junior front-end developers. See this article for a guide on getting your footer on the bottom of a page.
-* https://blog.benmyers.dev/clickable-divs/ - article covering why developers shouldn't create "clickable" divs, and should instead practice using buttons
-* https://hacks.mozilla.org/2015/03/understanding-inline-box-model/ - great article covering `inline` elements in depth
-* https://www.impressivewebs.com/difference-block-inline-css/ - article covering the differences between `inline` and `block` elements
-* https://www.impressivewebs.com/inline-block/ - follow up article that covers `inline-block`
-* https://www.semrush.com/blog/semantic-html5-guide/ - useful article that visually lays out, reviews, and compares and contrasts appropriate vs inappropriate use of semantic html. 
-* https://meiert.com/en/blog/dry-css/ - article that covers how to optimize your styling and make your CSS DRY (Don't Repeat Yourself)
-
-## Social Media
-* https://twitter.com/i/moments/994601867987619840 - superb developer/designer that provides actionable tips to set your designs apart
-* https://visme.co/blog/website-color-schemes/ - Visme is a blog that provides guides to making better visual designs. This specific blog post covers 50 great website color schemes
-
-## Extensions
-* https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=en - Eye Dropper: Useful tool for picking out colors from a web page.
-
 # HTML/CSS 2 Mini Project
+
 Lecture Code
 
 # HTML/CSS 2 Afternoon Project
+
 Clone the website given to you by your instructor
+
+# Additional Resources
+
+## Games for Flexbox
+
+- https://flexboxfroggy.com/
+- http://www.flexboxdefense.com/
+
+## Lecture Specific
+
+- [W3 Position Property](https://www.w3schools.com/css/css_positioning.asp)
+- [CSS Tricks Flex-Box](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [MDN Overflow Property](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
+
+## General 
+- https://www.w3schools.com - a great resource for learning the basics about HTML and CSS.
+  > Note: For all things JavaScript, avoid w3, and instead refer to MDN.
+- https://developer.mozilla.org/en-US/ - phenomenal resource for all things web dev, and more comprehensive HTML and CSS coverage than w3. Should be utilized as **THE** primary go-to for all things JavaScript.
+- https://css-tricks.com/ - another great resource for all things web dev, but is an especially great resource for more advanced CSS applications. Provides comprehensive tutorials on creating more complicated visual effects.
+- https://www.figma.com/ - accessible, convenient tool for making wireframes that can be used collaboratively.
+
+## Concepts
+- https://meiert.com/en/blog/dry-css/ - article that covers how to optimize your styling and make your CSS DRY (Don't Repeat Yourself)
+- https://www.semrush.com/blog/semantic-html5-guide/ - useful article that visually lays out, reviews, and compares and contrasts appropriate vs inappropriate use of semantic html.
+- https://hacks.mozilla.org/2015/03/understanding-inline-box-model/ - great article covering `inline` elements in depth
+- https://www.impressivewebs.com/difference-block-inline-css/ - article covering the differences between `inline` and `block` elements
+- https://www.impressivewebs.com/inline-block/ - follow up article that covers `inline-block`
+- https://blog.benmyers.dev/clickable-divs/ - article covering why developers shouldn't create "clickable" divs, and should instead practice using buttons
+- https://matthewjamestaylor.com/bottom-footer - getting footers to stay at the bottom of a page is a notoriously difficult task for junior front-end developers. See this article for a guide on getting your footer on the bottom of a page.
+
+## Tools
+- https://dribbble.com - website with free design templates created by top designers. Great source for inspiration on designs.
+- https://coolors.co/ - convenient tool for creating color schemes for a site.
+- http://colormind.io/ - similar to coolors.co
+- https://cssgradient.io/ - convenient tool for creating custom color gradients.
+- https://meyerweb.com/eric/tools/css/reset/ - free CSS Reset sheet that should cover most common issues
+
+## Videos
+
+- https://www.youtube.com/watch?v=UB1O30fR-EE&app=desktop - Traversy Media Introductory video to HTML. Traversy Media is a great resource for all things web dev.
+- https://www.youtube.com/watch?v=yfoY53QXEnI&app=desktop - Traversy Media Introductory video to CSS.
+  > Note: Students are strongly encouraged to watch both of these videos over the weekend to review and strengthen their foundation in HTML/CSS
+
+## Social Media
+
+- https://twitter.com/i/moments/994601867987619840 - superb developer/designer that provides actionable tips to set your designs apart
+- https://visme.co/blog/website-color-schemes/ - Visme is a blog that provides guides to making better visual designs. This specific blog post covers 50 great website color schemes
+
+## Extensions
+
+- https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=en - Eye Dropper: Useful tool for picking out colors from a web page.
+- https://chrome.google.com/webstore/detail/cssviewer/ggfgijbpiheegefliciemofobhmofgce?hl=en - CSSViewer: Tool for quickly seeing what styles an element has on a web page.
